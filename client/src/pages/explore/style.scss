@@ -1,0 +1,99 @@
+.explorePage {
+  min-height: 700px;
+  padding-top: 100px;
+  .resultNotFound {
+    font-size: 24px;
+    color: #f9f9f9;
+    .errorMessage {
+      padding-top: 50px;
+    }
+  }
+  .pageHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    flex-direction: row;
+  }
+  .pageTitle {
+    font-size: 24px;
+    line-height: 34px;
+    color: white;
+    margin-bottom: 0;
+  }
+  .filters {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    .react-select-container {
+      &.genresDD {
+        width: 100%;
+        max-width: 500px;
+        min-width: 250px;
+      }
+      &.sortbyDD {
+        flex-shrink: 0;
+        width: 250px;
+      }
+      .react-select__control {
+        border: 0;
+        outline: 0;
+        box-shadow: none;
+        background-color: cyan;
+        border-radius: 20px;
+        .react-select__indicator {
+          color: black;
+          &:hover {
+            color: white;
+          }
+        }
+        .react-select__value-container {
+          .react-select__placeholder,
+          .react-select__input-container {
+            color: #000000;
+            font-weight: bold;
+            margin: 0 10px;
+          }
+        }
+        .react-select__single-value {
+          color: black;
+        }
+        .react-select__multi-value {
+          background-color: #1c1b1b;
+          border-radius: 10px;
+          .react-select__multi-value__label {
+            color: white;
+          }
+          .react-select__multi-value__remove {
+            background-color: transparent;
+            color: black;
+            cursor: pointer;
+            &:hover {
+              color: #f9f9f9;
+            }
+          }
+        }
+      }
+      .react-select__menu {
+        top: 40px;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        color: black;
+        .react-select__option:hover {
+          background-color: rgba(0, 255, 255, 0.3);
+        }
+      }
+    }
+  }
+  .content {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 50px;
+    gap: 20px;
+    .movieCard {
+      .posterBlock {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
