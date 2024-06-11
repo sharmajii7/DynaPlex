@@ -11,8 +11,6 @@ Welcome to DynaPlex! This web application uses the TMDB (The Movie Database) API
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [API Reference](#api-reference)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
