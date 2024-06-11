@@ -86,7 +86,7 @@ function App() {
           toastOptions={{ duration: 2000 }}
         ></Toaster>
         <Routes>
-          <Route path="/" element={<Navigate to="/home" />}></Route>
+          <Route path="/" element={<Navigate to="/register" />}></Route>
           <Route
             path="/home"
             element={
