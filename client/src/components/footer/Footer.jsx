@@ -10,15 +10,14 @@ import "./style.scss";
 
 const Footer = () => {
   const handleClick = () => {
-    window.open("https://github.com/majisouvik26/Recommender_System", "_blank");
+    window.open("https://github.com/sharmajii7/DynaPlex", "_blank");
   };
 
   return (
     <footer className="footer">
       <ContentWrapper>
         <div className="infoText">
-          Created by Dishit Sharma (B22CS082) and Souvik Maji (B22CS089) &copy;
-          2024.
+          Created by Dishit Sharma (B22CS082) &copy; 2024.
         </div>
         <div className="socialIcons">
           Source Code:
