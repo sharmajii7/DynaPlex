@@ -42,7 +42,7 @@ const HeroBanner = () => {
         <div className="heroBannerContent">
           <span className="title">Welcome.</span>
           <span className="subTitle">
-            Your personalized movie recommendation system
+            Discover your next favourite film
           </span>
           <div className="searchInput">
             <input
