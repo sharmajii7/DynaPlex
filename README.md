@@ -1,5 +1,5 @@
 # DynaPlex
-# Movie Recommendation Website
+# Movie Website
 
 Welcome to DynaPlex! This web application uses the TMDB (The Movie Database) API to provide users with top movie suggestions. This README will guide you through the setup, usage, and contribution process for the project.
 
@@ -100,4 +100,4 @@ For a full list of endpoints and parameters, refer to the [TMDB API documentatio
 
 ---
 
-Thank you for using the Movie Recommendation Website! If you have any questions or feedback, please feel free to open an issue on GitHub.
+Thank you for using DynaPlex! If you have any questions or feedback, please feel free to open an issue on GitHub.
